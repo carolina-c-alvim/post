@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.post{
+    width: 700px;
+    background-color: rgb(228, 220, 220);
+    border-width: 1px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.img{
+    width: 700px;
+    height: 400px;
+}
+
+.titulo{
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    color: black;
+}
+
+.subtitulo{
+    margin: 10px;
+}
+
+.botao{
+    height: 40px;
+    background: none;
+    border-radius: 5px;
+    border: 2px solid #4c89e3;
+    color: #4c89e3;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.botao:hover{
+    background: #4c89e3;
+    color: #FFF;
+    transition: all 0.5s;
+}
